@@ -101,7 +101,7 @@ function App() {
                 src={profile}
                 alt="Mohammad Zeeyan - Full Stack Developer"
                 className="img-fluid rounded-circle border border-4 border-warning shadow-lg"
-                style={{ width: "280px", height: "280px", objectFit: "cover" }}
+                style={{ width: "238px", height: "280px", objectFit: "fill" }}
               />
             </div>
           </div>
