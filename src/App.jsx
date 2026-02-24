@@ -111,7 +111,7 @@ function App() {
       <section className="bg-gray-900 text-white py-5  rounded-lg shadow-md text-center mb-5">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-white leading-relaxed">
-          Hi, I’m Mohammad Zeeyan. I have completed my studies in [Your Degree/Field] and have over [X years] of experience in software development and web development. 
+          Hi, I’m Mohammad Zeeyan. I have completed my studies in Computer Science and engineering and have over 3 years of experience in software development and web development. 
           I have worked on diverse projects including WordPress websites, React & Django applications, and digital marketing solutions. 
           I enjoy building efficient, scalable, and user-friendly applications, and I’m passionate about learning new technologies and delivering high-quality solutions.
         </p>
