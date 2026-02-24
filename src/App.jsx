@@ -109,7 +109,8 @@ function App() {
       </section>
 
       <section className="bg-gray-900 text-white py-5  rounded-lg shadow-md text-center">
-        <h2 className="text-2xl font-bold mb-4">About Me</h2>
+        <h2 className="text-2xl font-bold">About Me</h2>
+        <hr className="mx-auto bg-warning" style={{width: '50px', height: '3px'}} />
         <p className="text-white leading-relaxed px-5">
           Hi, I’m Mohammad Zeeyan. I have completed my studies in Computer Science and engineering and have over 3 years of experience in software development and web development. 
           I have worked on diverse projects including WordPress websites, React & Django applications, and digital marketing solutions. 
@@ -152,6 +153,7 @@ function App() {
       <section id="projects" className="py-5 bg-light text-dark">
         <div className="container">
           <h2 className="text-center fw-bold mb-2">Selected Work</h2>
+          <hr className="mx-auto bg-warning" style={{width: '50px', height: '3px'}} />
           <p className="text-center text-muted mb-5">Real-world projects with measurable impact</p>
           <div className="row">
             {projects.map((project) => (
@@ -176,7 +178,8 @@ function App() {
       {/* Contact Section - (Fixes Contact Methods Signal) */}
       <section id="contact" className="py-5 text-center">
         <div className="container">
-          <h2 className="fw-bold mb-4">Let's Discuss Your Project</h2>
+          <h2 className="fw-bold">Let's Discuss Your Project</h2>
+          <hr className="mx-auto bg-warning" style={{width: '50px', height: '3px'}} />
           <div className="row justify-content-center">
             <div className="col-md-8">
               <div className="card bg-transparent border-warning p-4">
