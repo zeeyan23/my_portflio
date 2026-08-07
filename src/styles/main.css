@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+
+    --bg:#030712;
+    --surface:#111827;
+    --surface2:#1f2937;
+
+    --primary:#3b82f6;
+    --secondary:#60a5fa;
+
+    --text:#f8fafc;
+    --muted:#94a3b8;
+
+    --border:rgba(255,255,255,.08);
+
+    --shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:"Inter",sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    overflow-x:hidden;
+
+}
+
+body::before{
+
+    content:"";
+    position:fixed;
+
+    width:700px;
+    height:700px;
+
+    background:#2563eb22;
+    filter:blur(150px);
+
+    top:-200px;
+    right:-200px;
+
+    border-radius:50%;
+    z-index:-1;
+
+}
+
+body::after{
+
+    content:"";
+
+    position:fixed;
+
+    width:600px;
+    height:600px;
+
+    background:#06b6d422;
+
+    bottom:-150px;
+    left:-150px;
+
+    filter:blur(150px);
+
+    border-radius:50%;
+
+    z-index:-1;
+
+}
+
+section{
+
+    padding:110px 0;
+
+}
+
+.container{
+
+    width:min(1180px,90%);
+    margin:auto;
+
+}
+
+.section-title{
+
+    font-size:42px;
+
+    font-weight:800;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.section-subtitle{
+
+    text-align:center;
+
+    color:var(--muted);
+
+    max-width:700px;
+
+    margin:auto;
+
+    margin-bottom:60px;
+
+    font-size:18px;
+
+}
+
+.glass{
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid var(--border);
+
+    border-radius:24px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.primary-btn{
+
+    padding:15px 34px;
+
+    border-radius:999px;
+
+    background:linear-gradient(135deg,#3b82f6,#2563eb);
+
+    color:white;
+
+    text-decoration:none;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    transition:.35s;
+
+    font-weight:600;
+
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-4px);
+
+    color:white;
+
+    box-shadow:0 10px 30px rgba(37,99,235,.45);
+
+}
+
+.secondary-btn{
+
+    padding:15px 34px;
+
+    border-radius:999px;
+
+    border:1px solid var(--border);
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+}
+
+.secondary-btn:hover{
+
+    background:white;
+
+    color:#111;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}

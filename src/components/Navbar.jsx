@@ -1,0 +1,58 @@
+import { useState } from "react";
+
+function Navbar() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const links = [
+    {name:"Home", href:"#home"},
+    {name:"About", href:"#about"},
+    {name:"Experience", href:"#experience"},
+    {name:"Skills", href:"#skills"},
+    {name:"Projects", href:"#projects"},
+    {name:"Contact", href:"#contact"},
+  ];
+
+
+  return (
+    <header className="navbar">
+
+      <div className="container nav-wrapper">
+
+        <a href="#home" className="logo">
+          Zeeyan<span>.</span>
+        </a>
+
+
+        <nav className={menuOpen ? "nav-links active" : "nav-links"}>
+
+          {
+            links.map((link,index)=>(
+              <a 
+                key={index}
+                href={link.href}
+                onClick={()=>setMenuOpen(false)}
+              >
+                {link.name}
+              </a>
+            ))
+          }
+
+        </nav>
+
+
+        <button 
+          className="menu-btn"
+          onClick={()=>setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </button>
+
+      </div>
+
+    </header>
+  );
+}
+
+
+export default Navbar;
