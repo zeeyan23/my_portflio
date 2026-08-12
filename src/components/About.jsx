@@ -1,97 +1,57 @@
-function About(){
+function About() {
+  return (
+    <section id="about" className="about" aria-labelledby="about-heading">
+      <div className="container">
+        <div className="section-title">
+          <h2 id="about-heading">About Me</h2>
+          <p>Full Stack Developer specializing in modern web development</p>
+        </div>
 
-return (
+        <div className="about-card card">
+          <p>
+            I am <strong>Mohammad Zeeyan</strong>, a Full Stack Developer with
+            3+ years of experience building modern websites, web applications,
+            and mobile applications.
+          </p>
 
-<section id="about" className="about">
+          <p>
+            I specialize in <strong>React, JavaScript, Laravel, PHP, WordPress,
+            Node.js</strong>, and database-driven applications. I enjoy
+            transforming ideas into clean, scalable, responsive, and
+            user-friendly digital solutions.
+          </p>
 
-<div className="container">
+          <p>
+            My experience includes developing logistics platforms, custom
+            WordPress websites, meeting scheduler systems, mobile applications,
+            and business automation solutions for different business needs.
+          </p>
 
+          <div className="about-details">
+            <div>
+              <strong>Name</strong>
+              <span>Mohammad Zeeyan</span>
+            </div>
 
-<div className="section-title">
+            <div>
+              <strong>Role</strong>
+              <span>Full Stack Developer</span>
+            </div>
 
-<h2>
-About Me
-</h2>
+            <div>
+              <strong>Location</strong>
+              <span>Dubai, UAE</span>
+            </div>
 
-<p>
-A little introduction about my journey
-</p>
-
-</div>
-
-
-
-<div className="about-card card">
-
-
-<p>
-
-I am a Full Stack Developer with 3+ years of experience
-building modern websites, web applications, and mobile
-applications.
-
-</p>
-
-
-<p>
-
-I specialize in React, Laravel, PHP, WordPress, Node.js,
-and database-driven applications. I enjoy transforming
-ideas into clean, scalable, and user-friendly digital
-solutions.
-
-</p>
-
-
-<p>
-
-My experience includes developing logistics platforms,
-custom WordPress websites, meeting scheduler systems,
-mobile applications, and business automation solutions.
-
-</p>
-
-
-<div className="about-details">
-
-
-<div>
-<strong>Name</strong>
-<span>Mohammad Zeeyan</span>
-</div>
-
-
-<div>
-<strong>Role</strong>
-<span>Full Stack Developer</span>
-</div>
-
-
-<div>
-<strong>Location</strong>
-<span>Dubai, UAE</span>
-</div>
-
-
-<div>
-<strong>Status</strong>
-<span>Available Immediately</span>
-</div>
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-</section>
-
-)
-
+            <div>
+              <strong>Status</strong>
+              <span>Available Immediately</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
-
 
 export default About;
