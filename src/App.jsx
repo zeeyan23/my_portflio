@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
@@ -27,7 +28,8 @@ function App() {
       </main>
 
       <Footer />
-      <a
+      <Analytics />
+            <a
         href="https://wa.me/971562539244"
         className="whatsapp-float"
         target="_blank"
