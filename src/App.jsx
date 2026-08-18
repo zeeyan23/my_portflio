@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
@@ -29,6 +30,7 @@ function App() {
 
       <Footer />
       <Analytics />
+      <SpeedInsights />
             <a
         href="https://wa.me/971562539244"
         className="whatsapp-float"
