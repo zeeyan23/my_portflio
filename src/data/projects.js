@@ -31,17 +31,28 @@ const projects = [
     link:"https://www.limamar.com/"
   },
   {
-    title:"7H Network",
+    title: "ZayasTech solutions",
     description:
-    "7H Network is a global logistics network connecting businesses worldwide with modern, responsive solutions for supply chain management.",
+      "ZayasTech Solutions is a software and digital solutions company offering **software development, mobile apps, websites, SEO, and digital marketing services**. We help businesses build, improve, and grow their digital presence with **reliable and innovative technology solutions**.",
     technologies:[
-      "PHP",
-      "HTML5",
-      "Bootstrap",
-      "MySQL"
+      "Express.js",
+      "Node.js",
+      "HTML & CSS"
     ],
-    link:"https://7hnetwork.com/"
-  },
+    link:"https://www.zayastechsolutions.com/"
+  }
+  // {
+  //   title:"7H Network",
+  //   description:
+  //   "7H Network is a global logistics network connecting businesses worldwide with modern, responsive solutions for supply chain management.",
+  //   technologies:[
+  //     "PHP",
+  //     "HTML5",
+  //     "Bootstrap",
+  //     "MySQL"
+  //   ],
+  //   link:"https://7hnetwork.com/"
+  // },
 ];
 
 export default projects;
