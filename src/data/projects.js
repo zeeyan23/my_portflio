@@ -33,7 +33,7 @@ const projects = [
   {
     title: "ZayasTech solutions",
     description:
-      "ZayasTech Solutions is a software and digital solutions company offering software development, mobile apps, websites, SEO, and digital marketing services. We help businesses build, improve, and grow their digital presence with **reliable and innovative technology solutions**.",
+      "ZayasTech Solutions is a software and digital solutions company offering software development, mobile apps, websites, SEO, and digital marketing services. We help businesses build, improve, and grow their digital presence with reliable and innovative technology solutions.",
     technologies:[
       "Express.js",
       "Node.js",
