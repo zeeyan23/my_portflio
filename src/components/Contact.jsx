@@ -16,6 +16,7 @@ function Contact() {
           </p>
 
           <div className="contact-links">
+
             <a
               href="mailto:zeeyanraza444@gmail.com"
               aria-label="Email Mohammad Zeeyan"
@@ -27,7 +28,7 @@ function Contact() {
               href="tel:+971562539244"
               aria-label="Call Mohammad Zeeyan"
             >
-              +971 56 253 9244
+              📞 +971 56 253 9244
             </a>
 
             <a
@@ -36,12 +37,17 @@ function Contact() {
               rel="noopener noreferrer"
               aria-label="Visit Mohammad Zeeyan on LinkedIn"
             >
-              LinkedIn Profile
+              💼 LinkedIn Profile
             </a>
+
+            <span aria-label="Location">
+              📍 Dubai, UAE
+            </span>
+
           </div>
 
           <a
-            href="mailto:zeeyanra444@gmail.com"
+            href="mailto:zeeyanraza444@gmail.com"
             className="btn"
             aria-label="Send an email to Mohammad Zeeyan"
           >

@@ -13,7 +13,7 @@ function Hero() {
             Mohammad Zeeyan
             <br />
             <span className="gradient-text">
-              Full Stack Developer
+              Full Stack Developer based in Dubai, UAE
             </span>
           </h1>
 

@@ -25,6 +25,7 @@ function About() {
             My experience includes developing logistics platforms, custom
             WordPress websites, meeting scheduler systems, mobile applications,
             and business automation solutions for different business needs.
+            Currently i am based in Dubai, UAE.
           </p>
 
           <div className="about-details">
