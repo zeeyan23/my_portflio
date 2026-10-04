@@ -1,4 +1,4 @@
-const CV_FILE = "/Mohammad_Zeeyan_Full_Stack_Developer_CV"; // put the Full Stack CV in /public
+const CV_FILE = "/Mohammad_Zeeyan_Full_Stack_Developer_CV.pdf"; // put the Full Stack CV in /public
 const GITHUB_URL = "https://github.com/YOUR-USERNAME"; // FILL
 const LINKEDIN_URL = "https://www.linkedin.com/in/mohammad-zeeyan/";
 

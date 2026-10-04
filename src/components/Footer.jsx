@@ -1,7 +1,7 @@
 const GITHUB_URL = ""; // FILL with your GitHub URL; while empty, the link is hidden
 const LINKEDIN_URL = "https://www.linkedin.com/in/mohammad-zeeyan/";
 const EMAIL = "zeeyanraza444@gmail.com";
-const CV_FILE = "/Mohammad-Zeeyan-CV.pdf";
+const CV_FILE = "/Mohammad_Zeeyan_Full_Stack_Developer_CV.pdf";
 
 const navLinks = [
   { name: "Projects", href: "#projects" },
