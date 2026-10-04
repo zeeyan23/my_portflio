@@ -1,49 +1,86 @@
-function Experience() {
-  const experience = [
-    {
-      title: "Web Developer",
-      company: "ZayasTech Solution",
-      duration: "2024 - 2026",
-      description:
-        "Developed and redesigned WordPress websites for multiple clients. Customized WordPress themes and plugins according to business requirements. Built custom PHP functionality and responsive web pages using Elementor. Performed website maintenance, feature enhancements, backups, and troubleshooting. Improved website speed, performance, and user experience through optimization. Worked directly with international clients to gather requirements and deliver web development projects.",
-    },
-    {
-      title: "Software Developer",
-      company: "Aroha Group",
-      duration: "2022 - 2024",
-      description:
-        "Developed and maintained dynamic web applications using PHP and Laravel. Built responsive user interfaces using HTML, CSS, Bootstrap, and JavaScript. Designed and integrated REST APIs and optimized MySQL database structures and queries. Fixed production bugs and improved application performance. Collaborated with designers and project managers to deliver client requirements. Participated in application testing, deployment, and maintenance.",
-    },
-  ];
+const experience = [
+  {
+    title: "Web Developer",
+    company: "ZayasTech Solutions",
+    location: "India",
+    start: { label: "Mar 2024", iso: "2024-03" },
+    end: { label: "Jan 2026", iso: "2026-01" },
+    highlights: [
+      "Developed and redesigned WordPress websites for multiple international clients, gathering requirements directly with them.",
+      "Customized WordPress themes and plugins and built custom PHP functionality to match business requirements.",
+      "Built responsive pages with Elementor and improved site speed, performance and user experience through optimization.",
+      "Handled maintenance, feature enhancements, backups and troubleshooting for live client websites.",
+      // Add a measurable result here if you have one, for example:
+      // "Improved page load time on X sites from A s to B s"
+    ],
+    technologies: ["WordPress", "PHP", "Elementor", "JavaScript", "HTML", "CSS"],
+  },
+  {
+    title: "Software Developer",
+    company: "Aroha Group",
+    location: "India",
+    start: { label: "Jan 2022", iso: "2022-01" },
+    end: { label: "Jan 2024", iso: "2024-01" },
+    highlights: [
+      "Developed and maintained dynamic web applications using PHP and Laravel.",
+      "Built responsive interfaces with HTML, CSS, Bootstrap and JavaScript.",
+      "Designed and integrated REST APIs and optimized MySQL database structures and queries.",
+      "Fixed production bugs and improved application performance and reliability.",
+      "Worked with designers and project managers, and took part in testing, deployment and maintenance.",
+      // Add a measurable result here if you have one
+    ],
+    technologies: ["PHP", "Laravel", "MySQL", "JavaScript", "Bootstrap", "REST APIs"],
+  },
+];
 
+function Experience() {
   return (
-    <section
-      id="experience"
-      aria-labelledby="experience-heading"
-    >
+    <section id="experience" aria-labelledby="experience-heading">
       <div className="container">
         <div className="section-title">
           <h2 id="experience-heading">Professional Experience</h2>
-          <p>My professional journey in web and software development</p>
+          <p>3+ years building web applications and websites for real clients</p>
         </div>
 
-        <div className="timeline">
-          {experience.map((item, index) => (
-            <article className="timeline-item" key={index}>
-              <div className="timeline-dot" aria-hidden="true"></div>
+        <ol className="exp-timeline">
+          {experience.map((item) => (
+            <li className="exp-item" key={`${item.company}-${item.start.iso}`}>
+              <span className="exp-dot" aria-hidden="true" />
 
-              <div className="card timeline-card">
-                <h3>{item.title}</h3>
+              <article className="exp-card">
+                <header className="exp-header">
+                  <div>
+                    <h3 className="exp-title">{item.title}</h3>
+                    <p className="exp-company">
+                      {item.company} · {item.location}
+                    </p>
+                  </div>
 
-                <h4>{item.company}</h4>
+                  <p className="exp-date">
+                    <time dateTime={item.start.iso}>{item.start.label}</time>
+                    {" – "}
+                    <time dateTime={item.end.iso}>{item.end.label}</time>
+                  </p>
+                </header>
 
-                <time>{item.duration}</time>
+                <ul className="exp-highlights">
+                  {item.highlights.map((point) => (
+                    <li key={point}>{point}</li>
+                  ))}
+                </ul>
 
-                <p>{item.description}</p>
-              </div>
-            </article>
+                <ul
+                  className="exp-tech"
+                  aria-label={`Technologies used at ${item.company}`}
+                >
+                  {item.technologies.map((tech) => (
+                    <li key={tech}>{tech}</li>
+                  ))}
+                </ul>
+              </article>
+            </li>
           ))}
-        </div>
+        </ol>
       </div>
     </section>
   );
