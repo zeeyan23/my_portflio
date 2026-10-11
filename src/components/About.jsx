@@ -56,7 +56,7 @@ function About() {
             </p>
 
             <div className="about-actions">
-              <a href="/Mohammad-Zeeyan-CV.pdf" className="about-btn" download>
+              <a href="/Mohammad_Zeeyan_Full_Stack_Developer_CV.pdf" className="about-btn" download>
                 Download CV
               </a>
               <a href="#contact" className="about-link">
