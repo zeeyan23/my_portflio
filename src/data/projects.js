@@ -1,9 +1,37 @@
 const projects = [
+
+  {
+    title: "FreightConnect",
+    category: "Business Website",
+    type: "Client Project",
+    role: "Full Stack Developer",
+    description:
+      "Designed and developed a modern, responsive website for FreightConnect, a global B2B trade and logistics network connecting freight forwarders, traders, and businesses to create new business opportunities.",
+    highlights: [
+      "Developed a responsive website using Laravel, HTML, CSS, JavaScript, and Bootstrap.",
+      "Created interactive sections with scroll-driven animations and custom visual effects.",
+      "Built membership, benefits, pricing, FAQ, and contact sections to improve user engagement.",
+      "Implemented a modern UI focused on connecting global trade and logistics professionals.",
+      "Optimized layouts and animations for a smooth experience across desktop, tablet, and mobile devices."
+    ],
+    technologies: [
+      "Laravel",
+      "PHP",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "MySQL"
+    ],
+    link: "https://freightconnect.info/"
+  },
+
+
   {
     title: "Pacificmanpower",
     category: "Job Portal",
     type: "Client project",
-    role: "Full Stack Developer",
+    role: "Backend Developer",
     description:
       "Recruitment portal where candidates browse open positions and apply online.",
     highlights: [
@@ -19,7 +47,7 @@ const projects = [
     title: "Limamar",
     category: "Logistics Website",
     type: "Client project", // FILL
-    role: "Web Developer",
+    role: "WordPress Developer",
     description:
       "Corporate website for a logistics company offering air and sea freight and tailored supply-chain solutions.",
     highlights: [
@@ -36,7 +64,7 @@ const projects = [
     category: "Business Website",
     type: "Company website", // built during your role at Aroha Group
     year: "2022", // FILL
-    role: "Software Developer",
+    role: "Wordpress Developer",
     description:
       "Website for a software and digital solutions company presenting its services and capabilities to potential clients.",
     highlights: [

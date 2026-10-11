@@ -992,10 +992,30 @@ grid-template-columns:1fr;
 }
 
 .project-role {
-  margin: 0 0 0.9rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--p-muted);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin: 0 0 18px;
+    padding: 12px 15px;
+    /* background: #f8fafc; */
+    border-left: 3px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+}
+
+.project-role-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #0D9488;
+}
+
+.project-role-value {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
 }
 
 .project-description {

@@ -39,7 +39,10 @@ function Projects() {
               </header>
 
               <h3 className="project-title">{project.title}</h3>
-              <p className="project-role">{project.role}</p>
+              <div className="project-role">
+                <span className="project-role-label">My Contribution</span>
+                <span className="project-role-value">{project.role}</span>
+              </div>
               <p className="project-description">{project.description}</p>
 
               <ul className="project-highlights">
