@@ -37,7 +37,7 @@ const projects = [
     highlights: [
       "Built the job listing and online application flow in React.js.",
       "Connected the frontend to Django backend services.", // keep only if true
-      "FILL: one concrete feature or result (admin panel, filters, email alerts, number of listings)",
+      "Admin panel, filters, email alerts, number of listings",
     ],
     technologies: ["React.js", "Django"],
     link: "https://www.pacificmanpower.com.pg/",
@@ -53,7 +53,7 @@ const projects = [
     highlights: [
       "Customized WordPress functionality with PHP to match the company's service requirements.",
       "Implemented interactive data tables with DataTables for FILL: what data (rates, schedules, shipments).",
-      "FILL: one result (page speed score, number of service pages, SEO or usability improvement)",
+      "page speed score, number of service pages, SEO or usability improvement",
     ],
     technologies: ["WordPress", "PHP", "DataTables"],
     link: "https://www.limamar.com/",
@@ -70,7 +70,7 @@ const projects = [
     highlights: [
       "Developed and customized the site on WordPress and PHP based on business requirements.",
       "Implemented responsive layouts for desktop, tablet and mobile.",
-      "FILL: one result (sections or pages built, load time, lead form added)",
+      "Sections or pages built, load time, lead form added",
     ],
     technologies: ["WordPress", "PHP"],
     link: "https://arohagroup.com/",
@@ -86,7 +86,7 @@ const projects = [
     highlights: [
       "Built frontend components with HTML and CSS.",
       "Implemented backend functionality with Node.js and Express.js.", // keep only if true
-      "FILL: one feature (contact or enquiry form, API, email handling, SEO setup)",
+      "Contact or enquiry form, API, email handling, SEO setup",
     ],
     technologies: ["Node.js", "Express.js", "HTML & CSS"],
     link: "https://www.zayastechsolutions.com/",
