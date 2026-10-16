@@ -76,21 +76,21 @@ const projects = [
     link: "https://arohagroup.com/",
   },
 
-  {
-    title: "ZayasTech Solutions",
-    category: "Software Company Website",
-    type: "Company website", // built during your role at ZayasTech
-    role: "Web Developer",
-    description:
-      "Company website presenting software development, mobile app, web and SEO services.",
-    highlights: [
-      "Built frontend components with HTML and CSS.",
-      "Implemented backend functionality with Node.js and Express.js.", // keep only if true
-      "Contact or enquiry form, API, email handling, SEO setup",
-    ],
-    technologies: ["Node.js", "Express.js", "HTML & CSS"],
-    link: "https://www.zayastechsolutions.com/",
-  },
+  // {
+  //   title: "ZayasTech Solutions",
+  //   category: "Software Company Website",
+  //   type: "Company website", // built during your role at ZayasTech
+  //   role: "Web Developer",
+  //   description:
+  //     "Company website presenting software development, mobile app, web and SEO services.",
+  //   highlights: [
+  //     "Built frontend components with HTML and CSS.",
+  //     "Implemented backend functionality with Node.js and Express.js.", // keep only if true
+  //     "Contact or enquiry form, API, email handling, SEO setup",
+  //   ],
+  //   technologies: ["Node.js", "Express.js", "HTML & CSS"],
+  //   link: "https://www.zayastechsolutions.com/",
+  // },
 ];
 
 export default projects;
