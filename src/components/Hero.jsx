@@ -5,8 +5,9 @@ const LINKEDIN_URL = "https://www.linkedin.com/in/mohammad-zeeyan/";
 const facts = [
   { label: "Location", value: "Dubai, UAE" },
   { label: "Experience", value: "3+ years" },
-  { label: "Core stack", value: "Laravel · PHP · JavaScript · React · MySQL" },
-  { label: "Also", value: "WordPress · Django · REST APIs" },
+  { label: "Core stack", value: "Laravel · PHP · JavaScript · MySQL" },
+  { label: "Also", value: "WordPress · Django · REST APIs · SEO" },
+  { label: "Focus", value: "Web Development & IT Administration" },
   { label: "Availability", value: "Immediately, full-time" },
 ];
 
@@ -21,18 +22,21 @@ function Hero() {
             Mohammad Zeeyan
             <br />
             <span className="gradient-text">
-              Software Developer in Dubai, UAE
+              IT & Software Developer in Dubai, UAE
             </span>
           </h1>
 
           <p className="hero-stack">
-            Full Stack · Laravel · PHP · WordPress · React
+            Full Stack · Laravel · PHP · WordPress · React · IT Administration
           </p>
 
           <p className="hero-description">
-            3+ years of experience building web applications, APIs,
-            dashboards and business websites. Open to full-time Software
-            Developer roles in the UAE.
+            IT & Web Developer with 3+ years of experience in
+            developing and maintaining web applications, managing
+            databases, administering websites, and troubleshooting
+            technical issues. Experienced in PHP, Laravel, WordPress,
+            MySQL, hosting, APIs, and SEO. Open to IT Administrator,
+            ERP Support, and Web Developer opportunities.
           </p>
 
           <div className="hero-buttons">

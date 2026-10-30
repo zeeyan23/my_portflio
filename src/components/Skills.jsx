@@ -1,19 +1,34 @@
-// core: true = skills you use confidently day to day (highlighted)
+
 const skillGroups = [
   {
-    title: "Backend",
+    title: "IT & Website Administration",
     skills: [
-      { name: "PHP", core: true },
-      { name: "Laravel", core: true },
-      { name: "REST APIs", core: true },
-      { name: "Django", core: true },
+      { name: "WordPress Administration", core: true },
+      { name: "Website Maintenance", core: true },
+      { name: "Hosting & Deployment", core: true },
+      { name: "Domain & DNS Management", core: true },
+      { name: "SSL Configuration", core: true },
+      { name: "Website Backups" },
+      { name: "Technical Troubleshooting", core: true },
     ],
   },
   {
-    title: "Frontend",
+    title: "Backend & Database Management",
     skills: [
-      { name: "React.js", core: true },
+      { name: "PHP", core: true },
+      { name: "Laravel", core: true },
+      { name: "MySQL", core: true },
+      { name: "REST APIs", core: true },
+      { name: "Database Management", core: true },
+      { name: "Authentication & Access Control", core: true },
+      { name: "Django" },
+    ],
+  },
+  {
+    title: "Frontend Development",
+    skills: [
       { name: "JavaScript", core: true },
+      { name: "React.js", core: true },
       { name: "HTML5", core: true },
       { name: "CSS3", core: true },
       { name: "Bootstrap", core: true },
@@ -21,23 +36,19 @@ const skillGroups = [
     ],
   },
   {
-    title: "WordPress",
+    title: "SEO & Digital Platforms",
     skills: [
-      { name: "WordPress", core: true },
-      { name: "Custom themes & plugins", core: true },
-      { name: "Elementor", core: true },
+      { name: "Google Analytics", core: true },
+      { name: "Google Search Console", core: true },
+      { name: "Technical SEO", core: true },
+      { name: "Website Performance Optimization", core: true },
+      { name: "Sitemap Management" },
     ],
   },
   {
-    title: "Database & Tools",
+    title: "Development Tools & Familiar Technologies",
     skills: [
-      { name: "MySQL", core: true },
       { name: "Git", core: true },
-    ],
-  },
-  {
-    title: "Familiar with",
-    skills: [
       { name: "TypeScript" },
       { name: "Node.js" },
       { name: "Express.js" },
@@ -54,7 +65,10 @@ function Skills() {
       <div className="container">
         <div className="section-title">
           <h2 id="skills-heading">Technical Skills</h2>
-          <p>Technologies and tools I use to build web applications and websites</p>
+          <p>
+            Technical expertise across web development, website
+            administration, databases, hosting, and digital platforms.
+          </p>
         </div>
 
         <div className="skills-legend" aria-hidden="true">

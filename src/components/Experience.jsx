@@ -1,3 +1,4 @@
+
 const experience = [
   {
     title: "Web Developer",
@@ -6,14 +7,24 @@ const experience = [
     start: { label: "Mar 2024", iso: "2024-03" },
     end: { label: "Jan 2026", iso: "2026-01" },
     highlights: [
-      "Developed and redesigned WordPress websites for multiple international clients, gathering requirements directly with them.",
-      "Customized WordPress themes and plugins and built custom PHP functionality to match business requirements.",
-      "Built responsive pages with Elementor and improved site speed, performance and user experience through optimization.",
-      "Handled maintenance, feature enhancements, backups and troubleshooting for live client websites.",
-      // Add a measurable result here if you have one, for example:
-      // "Improved page load time on X sites from A s to B s"
+      "Developed, redesigned and maintained WordPress websites for international clients based on business requirements.",
+      "Customized WordPress themes, plugins and developed custom PHP functionality to extend website capabilities.",
+      "Managed website maintenance, troubleshooting, backups, plugin updates and technical issue resolution.",
+      "Configured and maintained website hosting environments, domains, DNS and SSL where required.",
+      "Built responsive interfaces using Elementor, HTML, CSS and JavaScript.",
+      "Improved website performance, loading speed, user experience and search engine optimization.",
+      "Supported website monitoring and performance analysis using Google Analytics and Google Search Console."
     ],
-    technologies: ["WordPress", "PHP", "Elementor", "JavaScript", "HTML", "CSS"],
+    technologies: [
+      "WordPress",
+      "PHP",
+      "Elementor",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SEO",
+      "Google Analytics"
+    ],
   },
   {
     title: "Software Developer",
@@ -22,16 +33,27 @@ const experience = [
     start: { label: "Jan 2022", iso: "2022-01" },
     end: { label: "Jan 2024", iso: "2024-01" },
     highlights: [
-      "Developed and maintained dynamic web applications using PHP and Laravel.",
-      "Built responsive interfaces with HTML, CSS, Bootstrap and JavaScript.",
-      "Designed and integrated REST APIs and optimized MySQL database structures and queries.",
-      "Fixed production bugs and improved application performance and reliability.",
-      "Worked with designers and project managers, and took part in testing, deployment and maintenance.",
-      // Add a measurable result here if you have one
+      "Developed and maintained business web applications using PHP and Laravel.",
+      "Designed, managed and optimized MySQL databases, database structures and queries.",
+      "Developed and integrated REST APIs for communication between application components and external services.",
+      "Implemented authentication, user management and application-level access controls.",
+      "Troubleshot application errors, resolved production issues and improved system performance and reliability.",
+      "Developed responsive user interfaces using HTML, CSS, Bootstrap and JavaScript.",
+      "Participated in application testing, deployment, maintenance and ongoing technical support."
     ],
-    technologies: ["PHP", "Laravel", "MySQL", "JavaScript", "Bootstrap", "REST APIs"],
+    technologies: [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "JavaScript",
+      "Bootstrap",
+      "REST APIs",
+      "HTML",
+      "CSS"
+    ],
   },
 ];
+
 
 function Experience() {
   return (
