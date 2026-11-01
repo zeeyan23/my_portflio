@@ -6,8 +6,8 @@ const facts = [
   { label: "Location", value: "Dubai, UAE" },
   { label: "Experience", value: "3+ years" },
   { label: "Core stack", value: "Laravel · PHP · JavaScript · MySQL" },
-  { label: "Also", value: "WordPress · Django · REST APIs · SEO" },
-  { label: "Focus", value: "Web Development & IT Administration" },
+  { label: "Also", value: "WordPress · Django · Shopify  · REST APIs · SEO" },
+  { label: "Focus", value: "Web Development, E-commerce & IT Administration" },
   { label: "Availability", value: "Immediately, full-time" },
 ];
 

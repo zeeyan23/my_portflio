@@ -1090,6 +1090,12 @@ grid-template-columns:1fr;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
+.project-access-note {
+  font-size: 13px;
+  color: #8B5CF6;
+  margin-top: 10px;
+}
+
 .project-cta span {
   transition: transform 0.2s ease;
 }

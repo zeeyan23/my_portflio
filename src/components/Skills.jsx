@@ -36,6 +36,16 @@ const skillGroups = [
     ],
   },
   {
+  title: "E-commerce Development",
+    skills: [
+      { name: "Shopify" },
+      { name: "Shopify Dawn Theme" },
+      { name: "Product & Collection Management" },
+      { name: "E-commerce Store Customization" },
+      { name: "Responsive Storefront Design" },
+    ],
+  },
+  {
     title: "SEO & Digital Platforms",
     skills: [
       { name: "Google Analytics", core: true },

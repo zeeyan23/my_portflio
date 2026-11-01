@@ -93,7 +93,33 @@ const projects = [
       "JavaScript"
     ],
     link: "https://arohagroup.com/"
-  }
+  },
+  {
+    title: "Nexora",
+    category: "E-commerce Website",
+    type: "Portfolio Project",
+    year: "2026",
+    role: "Shopify Developer",
+    description:
+      "Designed and configured a modern digital products e-commerce storefront using Shopify and the Dawn theme. Created a dark-themed shopping experience with product listings, collections, responsive layouts, and shopping cart functionality.",
+    accessNote: "This is a Shopify development project showcased for portfolio purposes. Please contact me if you'd like to explore the live storefront.",
+    highlights: [
+      "Set up and customized a Shopify store using the Dawn theme.",
+      "Designed a modern storefront with custom branding, typography, and dark-themed styling.",
+      "Created product listings and organized products into dedicated collections.",
+      "Customized homepage sections, including hero banner, featured products, newsletter, and promotional content.",
+      "Configured product pages, shopping cart, navigation, and informational pages.",
+      "Optimized the storefront layout for desktop and mobile devices."
+    ],
+    technologies: [
+      "Shopify",
+      "Shopify Dawn",
+      "Liquid",
+      "E-commerce",
+      "Responsive Design"
+    ],
+    // link: "https://zeeyan-portfolio.myshopify.com"
+  },
 ];
 
 export default projects;

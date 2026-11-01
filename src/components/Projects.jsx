@@ -44,7 +44,7 @@ function Projects() {
                 <span className="project-role-value">{project.role}</span>
               </div>
               <p className="project-description">{project.description}</p>
-
+              
               <ul className="project-highlights">
                 {project.highlights.map((item) => (
                   <li key={item}>{item}</li>
@@ -73,6 +73,11 @@ function Projects() {
                     <span aria-hidden="true">↗</span>
                   </a>
                 )}
+                {project.accessNote && (
+                <p className="project-access-note">
+                  {project.accessNote}
+                </p>
+              )}
               </footer>
             </article>
           ))}

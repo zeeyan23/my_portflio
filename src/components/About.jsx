@@ -16,6 +16,10 @@ const services = [
     title: "SEO & Digital Platforms",
     text: "Website optimization, technical SEO, Google Analytics, Google Search Console and website performance monitoring.",
   },
+  {
+    title: "E-commerce & Shopify Development",
+    text: "Shopify store setup and customization, product and collection management, responsive storefront design, theme customization and e-commerce website maintenance.",
+  },
 ];
 
 const details = [
@@ -45,32 +49,24 @@ function About() {
 
         <div className="about-layout">
           <div className="about-story">
+             
             <p>
-              I'm <strong className="text-white">Mohammad Zeeyan</strong>,
-              an IT & Web Developer with 3+ years of experience in
-              developing and maintaining web applications, managing
-              databases, administering websites and troubleshooting
-              technical issues. My technical background includes{" "}
-              <strong className="text-white">
-                PHP, Laravel, WordPress, MySQL, React and REST APIs
-              </strong>.
+              I'm <strong className="text-white">Mohammad Zeeyan</strong>, an IT & Web Developer with 3+ years of experience in 
+              developing and maintaining web applications, managing databases, administering websites, and troubleshooting technical issues. 
+              My technical background includes 
+              <strong className="text-white">PHP, Laravel, WordPress, MySQL, React, Shopify, and REST APIs</strong>.
             </p>
 
             <p>
-              I've worked on business websites, logistics platforms,
-              membership management systems and web applications.
-              My experience includes backend development, database
-              management, API integrations, website maintenance,
-              hosting and deployment, and application troubleshooting.
+              I've worked on business websites, logistics platforms, membership management systems, and web applications. My experience 
+              includes backend development, database management, API integrations, website maintenance, hosting and deployment, and technical 
+              troubleshooting.
             </p>
 
             <p>
-              I also have experience with website optimization,
-              SEO and Google digital platforms. I'm interested in
-              opportunities where I can contribute to IT operations,
-              business applications, website management and
-              technology infrastructure while continuing to expand
-              my expertise in enterprise systems and ERP platforms.
+              I also have experience in website optimization, SEO, and Google digital platforms. I'm interested in opportunities where I can 
+              contribute to IT operations, business applications, website management, and technology infrastructure while continuing to develop
+               my expertise in enterprise systems and ERP platforms.
             </p>
 
             <div className="about-actions">
