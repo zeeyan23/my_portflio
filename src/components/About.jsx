@@ -54,7 +54,7 @@ function About() {
               I'm <strong className="text-white">Mohammad Zeeyan</strong>, an IT & Web Developer with 3+ years of experience in 
               developing and maintaining web applications, managing databases, administering websites, and troubleshooting technical issues. 
               My technical background includes 
-              <strong className="text-white">PHP, Laravel, WordPress, MySQL, React, Shopify, and REST APIs</strong>.
+              <strong className="text-white"> PHP, Laravel, WordPress, MySQL, React, Shopify, and REST APIs</strong>.
             </p>
 
             <p>

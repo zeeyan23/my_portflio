@@ -75,7 +75,7 @@ const projects = [
     title: "Aroha Group",
     category: "Corporate Website",
     type: "Company Website",
-    year: "2022",
+    // year: "2022",
     role: "WordPress Developer",
     description:
       "Developed and customized a corporate website for a software and digital solutions company to showcase its services and business capabilities.",
@@ -98,7 +98,7 @@ const projects = [
     title: "Nexora",
     category: "E-commerce Website",
     type: "Portfolio Project",
-    year: "2026",
+    // year: "2026",
     role: "Shopify Developer",
     description:
       "Designed and configured a modern digital products e-commerce storefront using Shopify and the Dawn theme. Created a dark-themed shopping experience with product listings, collections, responsive layouts, and shopping cart functionality.",
