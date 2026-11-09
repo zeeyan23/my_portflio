@@ -33,7 +33,7 @@ function Projects() {
                 <div className="project-meta">
                   <span className="project-badge">{project.category}</span>
                   <span className="project-type">
-                    {project.type} · {project.year}
+                    {project.type}
                   </span>
                 </div>
               </header>
