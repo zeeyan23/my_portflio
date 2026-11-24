@@ -4,7 +4,7 @@ const PHONE_LINK = "+971562539244";
 const WHATSAPP_NUMBER = "971562539244";
 const LINKEDIN_URL = "https://www.linkedin.com/in/mohammad-zeeyan/";
 const GITHUB_URL = "https://github.com/YOUR-USERNAME"; // FILL, or remove the GitHub entry below
-const CV_FILE = "/Mohammad_Zeeyan_Full_Stack_Developer_CV.pdf";
+const CV_FILE = "/Mohammad_Zeeyan_FrontEnd_Developer_CV.pdf";
 
 const OPEN_TO_FREELANCE = false; // set to true to mention freelance work
 
