@@ -71,7 +71,7 @@ function About() {
 
             <div className="about-actions">
               <a
-                href="/Mohammad_Zeeyan_IT_ERP_Administrator_CV.pdf"
+                href="/Mohammad_Zeeyan_FrontEnd_Developer_CV.pdf"
                 className="about-btn"
                 download
               >
